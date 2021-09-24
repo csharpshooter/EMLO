@@ -88,7 +88,7 @@ reg_loss_l1 = []
 factor = 0  # 0.00005
 class_correct = list(0. for i in range(10))
 class_total = list(0. for i in range(10))
-PATH = './model.pth'
+PATH = 'model.pth'
 loss_type = nn.CrossEntropyLoss()
 
 
@@ -255,8 +255,8 @@ with torch.no_grad():
             total_pred[classes[label]] += 1
 
 csvlogger.info([])
-csvlogger.info([])
-csvlogger.info([])
+csvlogger.info(['Train Accuracy: {}'.format(max(train_acc))])
+csvlogger.info(['Test Accuracy: {}'.format(max(test_acc))])
 csvlogger.info([])
 csvlogger.info(['ClassName','Accuracy'])
 
@@ -266,3 +266,4 @@ for classname, correct_count in correct_pred.items():
     csvlogger.info([classname,accuracy])
     print("Accuracy for class {:5s} is: {:.1f} %".format(classname,
                                                          accuracy))
+
