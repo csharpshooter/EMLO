@@ -1,0 +1,70 @@
+(EMLO-1) abhijit@abhijit-OMEN-by-HP-Laptop-17-an0xx:~/TSAI/EMLO/A1$ python train.py
+1.9.1
+EPOCH: 0
+  0%|                                                                                      | 0/16 [00:00<?, ?it/s]/home/abhijit/anaconda3/envs/EMLO-1/lib/python3.8/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+Loss=9.201810836791992 Batch_id=15 Accuracy=0.10: 100%|███████████████████████████| 16/16 [00:03<00:00,  4.31it/s]
+
+Test set: Average loss: 0.1432, Accuracy: 2/800 (0.25%)
+
+Validation accuracy increased (0.000000 --> 0.250000).  Saving model ...
+EPOCH: 1
+Loss=4.439602375030518 Batch_id=15 Accuracy=5.90: 100%|███████████████████████████| 16/16 [00:03<00:00,  4.21it/s]
+
+Test set: Average loss: 0.0682, Accuracy: 172/800 (21.50%)
+
+Validation accuracy increased (0.250000 --> 21.500000).  Saving model ...
+EPOCH: 2
+Loss=1.3895152807235718 Batch_id=15 Accuracy=48.60: 100%|█████████████████████████| 16/16 [00:03<00:00,  4.31it/s]
+
+Test set: Average loss: 0.0226, Accuracy: 561/800 (70.12%)
+
+Validation accuracy increased (21.500000 --> 70.125000).  Saving model ...
+EPOCH: 3
+Loss=0.4061198830604553 Batch_id=15 Accuracy=83.10: 100%|█████████████████████████| 16/16 [00:03<00:00,  4.20it/s]
+
+Test set: Average loss: 0.0102, Accuracy: 689/800 (86.12%)
+
+Validation accuracy increased (70.125000 --> 86.125000).  Saving model ...
+EPOCH: 4
+Loss=0.2012159526348114 Batch_id=15 Accuracy=91.90: 100%|█████████████████████████| 16/16 [00:03<00:00,  4.06it/s]
+
+Test set: Average loss: 0.0070, Accuracy: 717/800 (89.62%)
+
+Validation accuracy increased (86.125000 --> 89.625000).  Saving model ...
+EPOCH: 5
+Loss=0.17402787506580353 Batch_id=15 Accuracy=95.00: 100%|████████████████████████| 16/16 [00:03<00:00,  4.14it/s]
+
+Test set: Average loss: 0.0057, Accuracy: 732/800 (91.50%)
+
+Validation accuracy increased (89.625000 --> 91.500000).  Saving model ...
+EPOCH: 6
+Loss=0.14855214953422546 Batch_id=15 Accuracy=96.10: 100%|████████████████████████| 16/16 [00:04<00:00,  3.94it/s]
+
+Test set: Average loss: 0.0051, Accuracy: 736/800 (92.00%)
+
+Validation accuracy increased (91.500000 --> 92.000000).  Saving model ...
+EPOCH: 7
+Loss=0.1026032418012619 Batch_id=15 Accuracy=96.20: 100%|█████████████████████████| 16/16 [00:03<00:00,  4.01it/s]
+
+Test set: Average loss: 0.0046, Accuracy: 740/800 (92.50%)
+
+Validation accuracy increased (92.000000 --> 92.500000).  Saving model ...
+EPOCH: 8
+Loss=0.06496831029653549 Batch_id=15 Accuracy=97.80: 100%|████████████████████████| 16/16 [00:03<00:00,  4.02it/s]
+
+Test set: Average loss: 0.0043, Accuracy: 746/800 (93.25%)
+
+Validation accuracy increased (92.500000 --> 93.250000).  Saving model ...
+EPOCH: 9
+Loss=0.042688168585300446 Batch_id=15 Accuracy=96.70: 100%|███████████████████████| 16/16 [00:03<00:00,  4.30it/s]
+
+Test set: Average loss: 0.0040, Accuracy: 750/800 (93.75%)
+
+Validation accuracy increased (93.250000 --> 93.750000).  Saving model ...
+Finished Training
+Loading Saved Model
+Loading Completed
+Accuracy on the test images: 93 %
+Accuracy for class cats  is: 95.0 %
+Accuracy for class dogs  is: 92.5 %
