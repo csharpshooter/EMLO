@@ -15,6 +15,16 @@
    - test_validate_test_accuracy_greater_than_70_pct
    - test_validate_dog_class_accuracy_greater_than_70_pct
    - test_validate_cat_class_accuracy_greater_than_70_pct
-5. [![Test Case status](https://github.com/csharpshooter/EMLO/actions/workflows/python-app.yml/badge.svg)](https://github.com/csharpshooter/EMLO/actions/workflows/python-app.yml)
+5. [![Tests Status](https://github.com/csharpshooter/EMLO/actions/workflows/python-app.yml/badge.svg)](https://github.com/csharpshooter/EMLO/actions/workflows/python-app.yml)
+6. First model 1000 images train test loss and accuracy:
+   - Train Accuracy: 98.1
+   - Test Accuracy: 93.5
+   - Cats Accuracy: 94.5
+   - Dogs Accuracy: 92.5
+7. Second model 2000 images train test loss and accuracy:
+   - Train Accuracy: 98.1
+   - Test Accuracy: 93.5
+   - Cats Accuracy: 94.5
+   - Dogs Accuracy: 92.5
 
 
